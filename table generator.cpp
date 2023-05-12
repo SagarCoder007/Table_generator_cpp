@@ -1,13 +1,14 @@
 #include <iostream>
+using namespace std;
 
 int main() {
     int num;
 
-    std::cout << "Enter a number: ";
-    std::cin >> num;
+    cout << "Enter a number: ";
+    cin >> num;
 
     for (int i = 1; i <= 10; i++) {
-        std::cout << num << " x " << i << " = " << num * i << std::endl;
+        cout << num << " x " << i << " = " << num * i << endl;
     }
 
     return 0;
